@@ -1,7 +1,5 @@
 # hledger-ecosystem-sample (пример работы с hledger для ведения бухгалтерии для бизнеса и/или личного бюджета)
 
-[![hledger - plain text accounting tool](http://storage7.static.itmages.com/i/16/1222/h_1482446632_8063220_18510cfbde.png)](![hledger - plain text accounting tool](http://hledger.org/index.html))
-
 ## Установка
 
 После [скачивания](http://hledger.org/download.html) и установки **hledger** необходимо привести файл `~/.hledger.journal` в следующий вид:
