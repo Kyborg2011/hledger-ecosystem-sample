@@ -1,0 +1,10 @@
+; Including of the personal hledger accounting configs
+;
+include config-personal.txt
+
+; Default system commodity:
+;
+D $1,000.00
+
+; List of personal operations
+;

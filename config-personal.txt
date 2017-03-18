@@ -1,0 +1,25 @@
+; List of personal accounts:
+;
+; assets
+;   bank
+;     privat
+; expenses
+;   mobile communication
+;   food
+;     groceries
+;     restaurant
+;   utilities
+;     electricity
+;     phone
+;   rent
+;   books
+;   cinema
+;   home
+;     clothing
+;     gifts
+;   holidays
+;   insurance
+;     health
+; income
+;   gifts received
+;   salary

@@ -1,0 +1,28 @@
+; List of personal accounts:
+;
+; assets
+;   current
+;     payment systems
+;       payoneer
+;       yandex money
+;     bank
+;     cash
+;     supplies
+;     accounts receivable
+;   others
+; expences
+;   accounts payable
+;     google cloud
+;   wages payable
+;   commissions
+;     upwork
+;     payoneer
+;   fees
+; equity
+;   common stock
+;   retained earnings
+;   others
+; income
+;   accounts payable
+;     upwork escrow
+;     freelance

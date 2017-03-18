@@ -1,0 +1,79 @@
+; Including of the business hledger accounting configs
+;
+include config-business.txt
+
+; Default system commodity:
+;
+D $1000.00
+
+; Commodities (currencies):
+;
+P 2016/1/1 $ UAH26.70
+
+; List of bussiness operations
+;
+2016/12/21 Operation's description
+    assets:current:accounts receivable      $154.95
+    expences:commissions:upwork      $2
+    income:accounts payable:upwork escrow
+
+2016/12/21 Operation's description
+    assets:current:cash       UAH3700 @@ $144.95
+    expences:commissions:payoneer      $3.15
+    assets:current:accounts receivable
+
+2016/12/21 Operation's description
+    assets:current:cash      UAH-1800
+    equity:retained earnings
+
+2016/12/21 Operation's description
+    assets:current:cash      UAH-1900
+    equity:retained earnings      UAH1900
+
+2016/12/26 Operation's description
+    assets:current:accounts receivable           $74.00
+    expences:commissions:upwork                   $2.00
+    income:accounts payable:upwork escrow
+
+2016/12/27 Operation's description
+    assets:current:cash        UAH1600 @@ $62.98
+    expences:commissions:payoneer      $3.15
+    assets:current:accounts receivable
+
+2016/12/27 Operation's description
+    equity:retained earnings       UAH1100
+    assets:current:cash
+
+2016/12/27 Operation's description
+    equity:retained earnings        UAH500
+    assets:current:cash
+
+2016/12/29 Operation's description
+    assets:current:bank                  UAH4145.98
+    income:accounts payable:freelance
+
+2016/12/29 Operation's description
+    equity:retained earnings       UAH1000
+    assets:current:bank
+
+2016/12/29 Operation's description
+    equity:retained earnings    UAH3145.98
+    assets:current:bank
+
+2017/01/03 Operation's description
+    assets:current:accounts receivable          $132.40
+    expences:commissions:upwork                   $7.50
+    income:accounts payable:upwork escrow      $-139.90
+
+2017/01/04 Operation's description
+    assets:current:cash              UAH3690.00 @@ $110.24
+    expenses:commissions:payoneer                    $9.45
+    assets:current:accounts receivable
+
+2017/01/04 Operation's description
+    equity:retained earnings       UAH500
+    assets:current:cash
+
+2017/01/04 Operation's description
+    equity:retained earnings       UAH3190.00
+    assets:current:cash

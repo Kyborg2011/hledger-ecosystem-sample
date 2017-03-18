@@ -1,0 +1,16 @@
+; Including of the main config journal file
+;
+include meta.journal
+
+; Including personal journal file
+; Defining custom aliases for assets, expenses and income accounts:
+;
+alias assets = assets:personal
+alias expenses = expenses:personal
+alias income = income:personal
+include personal.journal
+end aliases
+
+; Including of business journal file (luceolab.com)
+;
+include business.journal
